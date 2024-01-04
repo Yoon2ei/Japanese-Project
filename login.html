@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script>
+    $(function () {
+        $('#header').load('../header.html');
+
+        $('#footer').load('../footer.html');
+    });</script>
+</head>
+<body>
+   <div id="header"></div> 
+    <header>
+    <div class="login-box">
+        <form action="">
+             
+            <h1>Login</h1>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email"  name="email" required>
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password"  name="password" id="password"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more
+ characters" required />
+                <label> Password</label>
+            </div>
+            <div class="remember-forgot">
+                <label> <input type="checkbox">Remember me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit">Login</button>
+            <div class="register-link">
+                <p>Don't have an account?<a href="#">Register here</a></p>
+            </div>
+        </div>
+        </form>
+   
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> </header>
+    <div id="footer"></div>
+
+</body>
+</html>

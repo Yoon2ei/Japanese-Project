@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('#header').load('../header.html');
+
+            $('#footer').load('../footer.html');
+        });
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+        background-image: url(/images/image/ma.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover ;
+        margin-top: 20px;
+        }
+        .phone{
+            text-align: center;
+             margin-top: 9%; 
+            font-size: larger;
+            color: #fff;
+        }
+       
+        @media (max-width: 60em) {
+         .phone{ margin-top: 15%;}}
+        
+         @media (max-width: 60em) { .icon{
+            padding-left:20px 20px 20px 20px ;
+            font-size: 2rem;
+            color: #fff; }}
+
+            .ico{
+                 font-size: 2rem;
+                 color: #fff;
+            }
+            .icon label{
+                text-decoration: none;
+                color: #fff;
+
+            }
+            
+            input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #327886;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:green;
+}
+.level{
+    color:gray;
+}
+.container3{
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 30%;
+  margin-left: 33vw;
+  margin-top: 20px;
+  background-color: transparent;
+  border:1px solid #fff;
+  color: #fff;
+  font-size: larger;
+  font-weight: 600;
+}
+
+@media (max-width: 60em) {
+      .container3 {
+       width: 50%;
+       margin-left:24vw ;
+      }
+    }
+    
+    </style>
+
+</head>
+<body>
+    <div id="header"></div>
+    <header>
+    <div class="phone">
+    <h1> Want to know more?</h1><br>
+   
+    <span class="icon"><ion-icon name="call"></ion-icon></span>
+    <label>Phone: +959780992814</label><br><br><br>
+    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+    <a href="mailto:eiyoon61@gmail.com" style="text-decoration: none; color: #fff;" > Email: eiyoon61@gmail.com</a><br><br>
+        <div class="ico">
+      <span class="icon" > <ion-icon name="logo-facebook"></ion-icon></span>
+      <span class="icon"><ion-icon name="logo-twitter"></ion-icon></span>
+      <span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+    <span class="icon"><ion-icon name="logo-youtube"></ion-icon></span>
+    </div>
+</div>
+
+<div class="container3">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" placeholder="Your name.." required>
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+ 
+      <label for="Leve ">Level</label>
+      <select class="level" name="level">
+        <option value="N5" >N5</option>
+        <option value="N4">N4</option>
+        <option value="N3">N3</option>
+        <option value="N2">N2</option>
+      </select>
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script></header>
+
+<div id="footer"></div>
+</body>
+</html>
