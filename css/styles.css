@@ -13,7 +13,7 @@ header{
   justify-content: center;
    align-items: center; 
     width:100%;
-/*     min-height: 100vh;   */
+     min-height: 100vh;   
 background-image: url(/images/image/moon.jpeg);
   background-repeat: no-repeat;
 background-size: cover;
