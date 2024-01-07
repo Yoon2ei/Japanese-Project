@@ -26,6 +26,8 @@ padding-left: 35%;
 @media (max-width: 60em){
     header{
           padding-left:0px;
+        padding-right:0px;
+        padding-top:35%
         
 }} 
 
