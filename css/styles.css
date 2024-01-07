@@ -23,7 +23,7 @@ padding-left: 35%;
    
 }
 
-@media (max-width: 60em){
+@media (max-width: 600px){
     header{
          padding-left: 15%;
     padding-top: 28%;}} 
