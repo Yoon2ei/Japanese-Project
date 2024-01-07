@@ -27,9 +27,18 @@ padding-left: 35%;
     header{padding-left: 15%;
         
            padding-top: 28%;
-          padding-left:0px;}} 
-
-.login-box{
+}} 
+@media (max-width: 60em){
+    .login-box{
+        width:400px;
+        height:440px;
+        margin-bottom:20px;
+    }}
+    
+    
+    
+    .login-box{
+    
   position: relative;
   width: 420px;
   height: 460px;
@@ -41,7 +50,7 @@ padding-left: 35%;
    backdrop-filter:blur(18) ; 
    text-align: center; 
    justify-items: center;
-    margin-bottom:20px;
+ 
   
 }
  
