@@ -13,7 +13,7 @@ header{
   justify-content: center;
    align-items: center; 
     width:100%;
-     min-height: 100vh;   
+     min-height: 100vh;    
 background-image: url(/images/image/moon.jpeg);
   background-repeat: no-repeat;
 background-size: cover;
@@ -24,16 +24,16 @@ padding-left: 35%;
 }
 
 @media (max-width: 60em){
-    header{padding-left: 0%;
+    header{padding-left: 15%;
            width:100%;
-           padding-top: 35%;
+           padding-top: 50%%;
 }} 
-/* @media (max-width: 60em){
+@media (max-width: 60em){
     .login-box{
-        width:400px;
+        width:30%;
         height:440px;
      
-    }} */
+    }} 
     
     
     
