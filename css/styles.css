@@ -21,7 +21,8 @@ padding-left: 35%;
 
 @media (max-width: 60em){
     header{padding-left: 15%;
-    padding-top: 28%;}} 
+            width:100%;
+           padding-top: 28%;}} 
 
 .login-box{
   position: relative;
