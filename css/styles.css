@@ -28,7 +28,7 @@ padding-left: 35%;
          padding-left: 25%;
     padding-top: 28%;}} 
 
-@media (max-width: 60em){
+@media (max-width: 420px){
     header{
         padding-left:0px;
         Padding-right:0px;
