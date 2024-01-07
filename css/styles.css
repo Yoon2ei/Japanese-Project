@@ -24,23 +24,18 @@ padding-left: 35%;
 }
 
 @media (max-width: 60em){
-    header{padding-left: 15%;
+    header{
            width:100%;
            padding-top: 50%%;
 }} 
-@media (max-width: 60em){
-    .login-box{
-       
-        margin-top:30%
-     
-    }} 
+
     
     
     
     .login-box{
     
   position: relative;
-  width: 50%;
+  width: 420px;
   height: 460px;
   background:transparent;
   border-radius: 20px;
