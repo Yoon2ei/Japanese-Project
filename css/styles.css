@@ -24,16 +24,16 @@ padding-left: 35%;
 }
 
 @media (max-width: 60em){
-    header{padding-left: 15%;
+    header{padding-left: 0%;
         
-           padding-top: 28%;
+           padding-top: 35%;
 }} 
-@media (max-width: 60em){
+/* @media (max-width: 60em){
     .login-box{
         width:400px;
         height:440px;
-        margin-bottom:20px;
-    }}
+     
+    }} */
     
     
     
