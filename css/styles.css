@@ -25,11 +25,15 @@ padding-left: 35%;
 
 @media (max-width: 60em){
     header{
-          padding-left:0px;
-        padding-right:0px;
-        padding-top:50%
-        
-}} 
+         padding-left: 15%;
+    padding-top: 28%;}} 
+
+@media (max-width: 60em){
+    header{
+        padding-left:0px;
+        Padding-right:0px;
+        padding-top:50%}}
+
 
     
     
